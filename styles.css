@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(190, 206, 221);
+    color: rgb(51, 53, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(61, 135, 204);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: 97%;
+}
+
+.main{
+    margin-top: 20px;
+    padding: 5px 10px;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.book-info{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1px solid rgb(68, 68, 73);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background: rgb(250, 243, 243);
+}
+
+.additional-info{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.more-info{
+    margin-left: 20px;
+}
+
+.title{
+    padding: 10px 5px;
+}
+
+.title a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    font-size: large;
+}
+
+.search{
+    
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+    width: 48%;
+}
+
+.search button, .search input{
+    background: none;
+    border: none;
+    padding: 12px 8px;
+    text-align: center;
+    font-size: large;
+}
+.input input{
+    width: 90%;
+}
+
+.input{
+    width: 90%;
+    background: white;
+}
+
+.search-btn-div{
+    background: rgb(61, 135, 204);
+    text-align: center;
+}
+.search-btn-div button{
+    color: white;
+}
+
+
+@media only screen  and (min-width: 900px){
+
+    .book-info{
+        width: 45%;
+    }
+
+}
+
+@media only screen  and (max-width: 700px){
+
+    .search{
+        width: 80%;
+    }
+
+}
+
+@media only screen  and (max-width: 400px){
+    .search{
+        display: flex;
+        flex-direction: column;
+    }
+    .search button, .search input{
+        padding: 5px 10px;
+    }
+
+    .search .input{
+        width: 100%;
+    }
+    .search-btn-div{
+        margin-top: 6px;
+    }
+
+}
