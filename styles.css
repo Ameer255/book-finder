@@ -83,7 +83,7 @@ header{
     font-size: large;
 }
 .input input{
-    width: 90%;
+    width: 100%;
 }
 
 .input{
@@ -94,9 +94,12 @@ header{
 .search-btn-div{
     background: rgb(61, 135, 204);
     text-align: center;
+    width : 10%;
+
 }
 .search-btn-div button{
     color: white;
+     width: 100%;
 }
 
 
@@ -130,6 +133,7 @@ header{
     }
     .search-btn-div{
         margin-top: 6px;
+        width:100%;
     }
 
 }
