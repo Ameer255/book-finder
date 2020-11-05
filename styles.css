@@ -94,7 +94,6 @@ header{
 .search-btn-div{
     background: rgb(61, 135, 204);
     text-align: center;
-    width : 10%;
 
 }
 .search-btn-div button{
@@ -125,10 +124,10 @@ header{
         flex-direction: column;
     }
     .search button, .search input{
-        padding: 5px 10px;
+        padding: 5px 0px;
     }
 
-    .search .input{
+    .input, .input input{
         width: 100%;
     }
     .search-btn-div{
