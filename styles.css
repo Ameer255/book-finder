@@ -78,7 +78,7 @@ header{
 .search button, .search input{
     background: none;
     border: none;
-    padding: 12px 8px;
+    padding: 12px 0;
     text-align: center;
     font-size: large;
 }
