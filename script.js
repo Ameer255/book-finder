@@ -44,7 +44,7 @@ searchBtn.addEventListener(("click"), ()=>{
       })
 
   }).catch((error) =>{
-      container.innerHTML = "Error..! Please check your internet connection";
+      container.innerHTML = "No Results Found..!";
   })
 
 
