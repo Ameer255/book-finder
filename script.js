@@ -41,7 +41,7 @@ searchBtn.addEventListener(("click"), ()=>{
 </div>
 `)
           
-      })
+      }).join(' ');
 
   }).catch((error) =>{
       container.innerHTML = "No Results Found..!";
